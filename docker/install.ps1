@@ -6,7 +6,7 @@ if ([string]::IsNullOrWhiteSpace($InstallPath)) {
     $InstallPath = Join-Path $env:LOCALAPPDATA "NekroAgent"
 }
 
-$scriptUrl = "https://raw.githubusercontent.com/KroMiose/nekro-agent/refs/heads/main/docker/wslinstall.ps1"
+$scriptUrl = "https://raw.githubusercontent.com/ggqlq/nekro-agent/refs/heads/161-demo/docker/wslinstall.ps1"
 $scriptPath = Join-Path $env:TEMP "NA_wslinstall.ps1"
 
 try {
